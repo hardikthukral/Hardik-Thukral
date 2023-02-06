@@ -1,0 +1,225 @@
+*{
+    border: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand span{
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 40px;
+    color: aqua;
+    margin-left: 10px;
+    font-family: 'Solitreo', cursive;
+    margin-top: 4px;
+}
+
+.navbar-brand span:hover{
+    color: red;
+    transform: scale3d(1.2,1.2,1.1);
+}
+
+.nav-item a{
+    margin-left: 200px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: white;
+    transform: scale3d(1.1,1.1,1.1);
+}
+
+.section1{
+    background-image: url('music1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.section1 h1{
+    font-size: 50px;
+    color: black;
+    margin-left: 100px;
+    padding-top: 110px;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+}
+
+.tableHeading{
+    text-align: center;
+    /* font-weight:bold; */
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    color: whitesmoke;
+}
+
+.table{
+    background-image: url('music2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+td button a{
+    color: white;
+    font-style: italic;
+    font-family: 'Sassy Frass', cursive;
+    font-size: 40px;
+}
+
+td button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale3d(1.1,1.2,1.2);
+    transition: .5s;
+    text-decoration: none;
+}
+
+.perfectBody{
+    background-image: url('perfectbanner.jpg');
+    opacity: 1.3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.perfectContainer h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+
+.perfectParagraph1 h3{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.perfectParagraph2 h3{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Volkhov', serif;
+}
+
+.perfectParagraph3 h3{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Quantico', sans-serif;
+    opacity: 1.3;
+}
+
+.perfectParagraph4 h3{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.perfectButton1{
+    border: 2px solid red;
+    margin-left: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.perfectButton2{
+    border: 2px solid red;
+    margin-left: 1090px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.cheapThrillsBody{
+    background-image: url('cheapThrillsbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cheapContainer h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+
+.cheapContainer h1 span{
+    color: black;
+}
+
+.cheapParagraph1 h3{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.cheapParagraph2 h3{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Volkhov', serif;
+}
+
+.cheapParagraph3 h3{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Quantico', sans-serif;
+    opacity: 1.3;
+}
+
+.cheapParagraph4 h3{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
